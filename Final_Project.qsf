@@ -1,0 +1,141 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 2022  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and any partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details, at
+# https://fpgasoftware.intel.com/eula.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 21.1.1 Build 850 06/23/2022 SJ Standard Edition
+# Date created = 14:28:17  November 21, 2022
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		Final_Project_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Intel recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone IV E"
+set_global_assignment -name DEVICE EP4CE115F29C7
+set_global_assignment -name TOP_LEVEL_ENTITY Final_Project
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 21.1.1
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "14:28:17  NOVEMBER 21, 2022"
+set_global_assignment -name LAST_QUARTUS_VERSION "21.1.1 Standard Edition"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+set_global_assignment -name NOMINAL_CORE_SUPPLY_VOLTAGE 1.2V
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_location_assignment PIN_AB28 -to Q000
+set_location_assignment PIN_AC28 -to Q001
+set_location_assignment PIN_AC27 -to Q010
+set_location_assignment PIN_AD27 -to Q011
+set_location_assignment PIN_AB27 -to Q100
+set_location_assignment PIN_AC26 -to Q101
+set_location_assignment PIN_AD26 -to Q110
+set_location_assignment PIN_AB26 -to Q111
+set_location_assignment PIN_AC25 -to Q200
+set_location_assignment PIN_AB25 -to Q201
+set_location_assignment PIN_AC24 -to Q210
+set_location_assignment PIN_AB24 -to Q211
+set_location_assignment PIN_AB23 -to Q300
+set_location_assignment PIN_AA24 -to Q301
+set_location_assignment PIN_AA23 -to Q310
+set_location_assignment PIN_AA22 -to Q311
+set_location_assignment PIN_AB22 -to Q411
+set_location_assignment PIN_AB21 -to Q410
+set_location_assignment PIN_AC21 -to Q401
+set_location_assignment PIN_AD21 -to Q400
+set_location_assignment PIN_M23 -to Zero
+set_location_assignment PIN_M21 -to St
+set_location_assignment PIN_Y2 -to Clock
+set_location_assignment PIN_V21 -to HA
+set_location_assignment PIN_U21 -to HB
+set_location_assignment PIN_AB20 -to HC
+set_location_assignment PIN_AA21 -to HD
+set_location_assignment PIN_AD24 -to HE
+set_location_assignment PIN_AF23 -to HF
+set_location_assignment PIN_Y19 -to HG
+set_location_assignment PIN_AA25 -to TA
+set_location_assignment PIN_AA26 -to TB
+set_location_assignment PIN_Y25 -to TC
+set_location_assignment PIN_W26 -to TD
+set_location_assignment PIN_Y26 -to TE
+set_location_assignment PIN_W27 -to TF
+set_location_assignment PIN_W28 -to TG
+set_location_assignment PIN_M24 -to OA
+set_location_assignment PIN_Y22 -to OB
+set_location_assignment PIN_W21 -to OC
+set_location_assignment PIN_W22 -to OD
+set_location_assignment PIN_W25 -to OE
+set_location_assignment PIN_U23 -to OF
+set_location_assignment PIN_U24 -to OG
+set_global_assignment -name VERILOG_FILE seven_seg_decoder.v
+set_global_assignment -name BDF_FILE Multiplier.bdf
+set_global_assignment -name BDF_FILE Plus3.bdf
+set_global_assignment -name VERILOG_FILE newplus3.v
+set_global_assignment -name BDF_FILE halfadder.bdf
+set_global_assignment -name BDF_FILE debouncerSymbol.bdf
+set_global_assignment -name BDF_FILE clock_generator.bdf
+set_global_assignment -name BDF_FILE clock_divider_1024.bdf
+set_global_assignment -name VERILOG_FILE findTwoLargest.v
+set_global_assignment -name VERILOG_FILE finalProject_determineLargest.v
+set_global_assignment -name BDF_FILE Adder_Subtractor.bdf
+set_global_assignment -name VERILOG_FILE adder_FourBit.v
+set_global_assignment -name BDF_FILE fullAdder.bdf
+set_global_assignment -name BDF_FILE adder_4Bit.bdf
+set_global_assignment -name BDF_FILE "Adder-Subtractor.bdf"
+set_global_assignment -name VERILOG_FILE FA.v
+set_global_assignment -name BDF_FILE Final_Project.bdf
+set_global_assignment -name BDF_FILE final_Project_register.bdf
+set_global_assignment -name VERILOG_FILE fourToOneMux.v
+set_global_assignment -name VERILOG_FILE twoToOneMux.v
+set_global_assignment -name BDF_FILE final_project_register_file.bdf
+set_global_assignment -name BDF_FILE final_project_two_number_Register.bdf
+set_global_assignment -name VERILOG_FILE resetRegister.v
+set_global_assignment -name VERILOG_FILE determineTwoLargest.v
+set_global_assignment -name BDF_FILE debouncer.bdf
+set_global_assignment -name VERILOG_FILE multiplier.v
+set_global_assignment -name BDF_FILE convertToSevenSeg.bdf
+set_location_assignment PIN_AA17 -to LargestA
+set_location_assignment PIN_AB16 -to LargestB
+set_location_assignment PIN_AA16 -to LargestC
+set_location_assignment PIN_AB17 -to LargestD
+set_location_assignment PIN_AB15 -to LargestE
+set_location_assignment PIN_AA15 -to LargestF
+set_location_assignment PIN_AC17 -to LargestG
+set_location_assignment PIN_AD17 -to SecondA
+set_location_assignment PIN_AE17 -to SecondB
+set_location_assignment PIN_AG17 -to SecondC
+set_location_assignment PIN_AH17 -to SecondD
+set_location_assignment PIN_AF17 -to SecondE
+set_location_assignment PIN_AG18 -to SecondF
+set_location_assignment PIN_AA14 -to SecondG
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

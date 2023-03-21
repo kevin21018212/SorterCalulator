@@ -1,0 +1,233 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "HA",
+					"strict" : false
+				},
+				{
+					"name" : "HC",
+					"strict" : false
+				},
+				{
+					"name" : "HD",
+					"strict" : false
+				},
+				{
+					"name" : "HE",
+					"strict" : false
+				},
+				{
+					"name" : "HF",
+					"strict" : false
+				},
+				{
+					"name" : "HG",
+					"strict" : false
+				},
+				{
+					"name" : "TA",
+					"strict" : false
+				},
+				{
+					"name" : "TB",
+					"strict" : false
+				},
+				{
+					"name" : "TC",
+					"strict" : false
+				},
+				{
+					"name" : "TD",
+					"strict" : false
+				},
+				{
+					"name" : "TE",
+					"strict" : false
+				},
+				{
+					"name" : "TF",
+					"strict" : false
+				},
+				{
+					"name" : "TG",
+					"strict" : false
+				},
+				{
+					"name" : "OA",
+					"strict" : false
+				},
+				{
+					"name" : "OB",
+					"strict" : false
+				},
+				{
+					"name" : "OC",
+					"strict" : false
+				},
+				{
+					"name" : "OD",
+					"strict" : false
+				},
+				{
+					"name" : "OE",
+					"strict" : false
+				},
+				{
+					"name" : "OF",
+					"strict" : false
+				},
+				{
+					"name" : "OG",
+					"strict" : false
+				},
+				{
+					"name" : "SecondA",
+					"strict" : false
+				},
+				{
+					"name" : "SecondB",
+					"strict" : false
+				},
+				{
+					"name" : "SecondC",
+					"strict" : false
+				},
+				{
+					"name" : "SecondD",
+					"strict" : false
+				},
+				{
+					"name" : "SecondE",
+					"strict" : false
+				},
+				{
+					"name" : "SecondF",
+					"strict" : false
+				},
+				{
+					"name" : "SecondG",
+					"strict" : false
+				},
+				{
+					"name" : "LargestA",
+					"strict" : false
+				},
+				{
+					"name" : "LargestB",
+					"strict" : false
+				},
+				{
+					"name" : "LargestC",
+					"strict" : false
+				},
+				{
+					"name" : "LargestD",
+					"strict" : false
+				},
+				{
+					"name" : "LargestE",
+					"strict" : false
+				},
+				{
+					"name" : "LargestF",
+					"strict" : false
+				},
+				{
+					"name" : "LargestG",
+					"strict" : false
+				},
+				{
+					"name" : "Q400",
+					"strict" : false
+				},
+				{
+					"name" : "Q411",
+					"strict" : false
+				},
+				{
+					"name" : "Q000",
+					"strict" : false
+				},
+				{
+					"name" : "Q001",
+					"strict" : false
+				},
+				{
+					"name" : "Q401",
+					"strict" : false
+				},
+				{
+					"name" : "Q301",
+					"strict" : false
+				},
+				{
+					"name" : "Q201",
+					"strict" : false
+				},
+				{
+					"name" : "Q101",
+					"strict" : false
+				},
+				{
+					"name" : "Q111",
+					"strict" : false
+				},
+				{
+					"name" : "Q011",
+					"strict" : false
+				},
+				{
+					"name" : "Q110",
+					"strict" : false
+				},
+				{
+					"name" : "Q010",
+					"strict" : false
+				},
+				{
+					"name" : "Q100",
+					"strict" : false
+				},
+				{
+					"name" : "Q211",
+					"strict" : false
+				},
+				{
+					"name" : "Q210",
+					"strict" : false
+				},
+				{
+					"name" : "Q200",
+					"strict" : false
+				},
+				{
+					"name" : "Q311",
+					"strict" : false
+				},
+				{
+					"name" : "Q310",
+					"strict" : false
+				},
+				{
+					"name" : "Q300",
+					"strict" : false
+				},
+				{
+					"name" : "Q410",
+					"strict" : false
+				},
+				{
+					"name" : "Clock",
+					"strict" : false
+				},
+				{
+					"name" : "Zero",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

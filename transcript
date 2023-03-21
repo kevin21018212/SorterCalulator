@@ -1,0 +1,83 @@
+# Compile of converter.v was successful.
+# Compile of determineTwoLargest.v was successful.
+# Compile of Final_Project.v was successful.
+# Compile of final_Project_register.v was successful.
+# Compile of final_project_two_number_Register.v was successful.
+# Compile of multiplier.v was successful.
+# Compile of newplus3.v was successful.
+# Compile of twoToOneMux.v was successful.
+# 8 compiles, 0 failed with no errors.
+vsim -gui work.multiplier
+# vsim -gui work.multiplier 
+# Start time: 18:06:54 on Dec 04,2022
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# Loading work.multiplier(fast)
+add wave -position insertpoint  \
+sim:/multiplier/A0 \
+sim:/multiplier/A1 \
+sim:/multiplier/A2 \
+sim:/multiplier/A3 \
+sim:/multiplier/A4 \
+sim:/multiplier/A5 \
+sim:/multiplier/A6 \
+sim:/multiplier/A7
+do multiplier.do
+num03:         15quit -sim
+# End time: 18:09:29 on Dec 04,2022, Elapsed time: 0:02:35
+# Errors: 0, Warnings: 5
+# Compile of converter.v was successful.
+# Compile of determineTwoLargest.v was successful.
+# Compile of Final_Project.v was successful.
+# Compile of final_Project_register.v was successful.
+# Compile of final_project_two_number_Register.v was successful.
+# Compile of multiplier.v was successful.
+# Compile of newplus3.v was successful.
+# Compile of twoToOneMux.v was successful.
+# 8 compiles, 0 failed with no errors.
+vsim -gui work.multiplier
+# vsim -gui work.multiplier 
+# Start time: 18:10:15 on Dec 04,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.multiplier(fast)
+add wave -position insertpoint  \
+sim:/multiplier/A0 \
+sim:/multiplier/A1 \
+sim:/multiplier/A2 \
+sim:/multiplier/A3 \
+sim:/multiplier/A4 \
+sim:/multiplier/A5 \
+sim:/multiplier/A6 \
+sim:/multiplier/A7
+do multiplier.do
+num03:         15num03          7num03          3num03          1quit -sim
+# End time: 18:11:42 on Dec 04,2022, Elapsed time: 0:01:27
+# Errors: 0, Warnings: 2
+# Compile of converter.v was successful.
+# Compile of determineTwoLargest.v was successful.
+# Compile of Final_Project.v was successful.
+# Compile of final_Project_register.v was successful.
+# Compile of final_project_two_number_Register.v was successful.
+# Compile of multiplier.v was successful.
+# Compile of newplus3.v was successful.
+# Compile of twoToOneMux.v was successful.
+# 8 compiles, 0 failed with no errors.
+vsim -gui work.multiplier
+# vsim -gui work.multiplier 
+# Start time: 18:12:07 on Dec 04,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.multiplier(fast)
+add wave -position insertpoint  \
+sim:/multiplier/A0 \
+sim:/multiplier/A1 \
+sim:/multiplier/A2 \
+sim:/multiplier/A3 \
+sim:/multiplier/A4 \
+sim:/multiplier/A5 \
+sim:/multiplier/A6 \
+sim:/multiplier/A7
+do multiplier.do
+num03:         15num03          7num03          3num03          1num03          0do multiplier.do
+num03:         30num03         14num03          6num03          2num03          0do multiplier.do
+num03:        225num03         97num03         33num03          1num03          0do multiplier.do
+# End time: 18:14:15 on Dec 04,2022, Elapsed time: 0:02:08
+# Errors: 0, Warnings: 2

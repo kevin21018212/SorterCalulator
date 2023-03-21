@@ -1,0 +1,92 @@
+{U:/CPRE281/Final Project/fourToOneMux.v} {1 {vlog -work work -vopt -stats=none {U:/CPRE281/Final Project/fourToOneMux.v}
+QuestaSim-64 vlog 2022.2 Compiler 2022.04 Apr 25 2022
+-- Compiling module fourToOneMux
+
+Top level modules:
+	fourToOneMux
+
+} {} {}} {U:/CPRE281/Final Project/final_Project_register.v} {1 {vlog -work work -vopt -stats=none {U:/CPRE281/Final Project/final_Project_register.v}
+QuestaSim-64 vlog 2022.2 Compiler 2022.04 Apr 25 2022
+-- Compiling module final_Project_register
+
+Top level modules:
+	final_Project_register
+
+} {} {}} {U:/CPRE281/Final Project/final_project_two_number_Register.v} {1 {vlog -work work -vopt -stats=none {U:/CPRE281/Final Project/final_project_two_number_Register.v}
+QuestaSim-64 vlog 2022.2 Compiler 2022.04 Apr 25 2022
+-- Compiling module final_project_two_number_Register
+
+Top level modules:
+	final_project_two_number_Register
+
+} {} {}} {U:/CPRE281/Final Project/debouncerSymbol.v} {1 {vlog -work work -vopt -stats=none {U:/CPRE281/Final Project/debouncerSymbol.v}
+QuestaSim-64 vlog 2022.2 Compiler 2022.04 Apr 25 2022
+-- Compiling module debouncerSymbol
+
+Top level modules:
+	debouncerSymbol
+
+} {} {}} {U:/CPRE281/Final Project/multiplier.v} {1 {vlog -work work -vopt -stats=none {U:/CPRE281/Final Project/multiplier.v}
+QuestaSim-64 vlog 2022.2 Compiler 2022.04 Apr 25 2022
+-- Compiling module multiplier
+
+Top level modules:
+	multiplier
+
+} {} {}} {U:/CPRE281/Final Project/debouncer.v} {1 {vlog -work work -vopt -stats=none {U:/CPRE281/Final Project/debouncer.v}
+QuestaSim-64 vlog 2022.2 Compiler 2022.04 Apr 25 2022
+-- Compiling module debouncer
+
+Top level modules:
+	debouncer
+
+} {} {}} {U:/CPRE281/Final Project/Final_Project.v} {1 {vlog -work work -vopt -stats=none {U:/CPRE281/Final Project/Final_Project.v}
+QuestaSim-64 vlog 2022.2 Compiler 2022.04 Apr 25 2022
+-- Compiling module Final_Project
+
+Top level modules:
+	Final_Project
+
+} {} {}} {U:/CPRE281/Final Project/determineTwoLargest.v} {1 {vlog -work work -vopt -stats=none {U:/CPRE281/Final Project/determineTwoLargest.v}
+QuestaSim-64 vlog 2022.2 Compiler 2022.04 Apr 25 2022
+-- Compiling module determineTwoLargest
+
+Top level modules:
+	determineTwoLargest
+
+} {} {}} {U:/CPRE281/Final Project/newplus3.v} {1 {vlog -work work -vopt -stats=none {U:/CPRE281/Final Project/newplus3.v}
+QuestaSim-64 vlog 2022.2 Compiler 2022.04 Apr 25 2022
+-- Compiling module newplus3
+
+Top level modules:
+	newplus3
+
+} {} {}} {U:/CPRE281/Final Project/seven_seg_decoder.v} {1 {vlog -work work -vopt -stats=none {U:/CPRE281/Final Project/seven_seg_decoder.v}
+QuestaSim-64 vlog 2022.2 Compiler 2022.04 Apr 25 2022
+-- Compiling module seven_seg_decoder
+
+Top level modules:
+	seven_seg_decoder
+
+} {} {}} {U:/CPRE281/Final Project/clock_divider_1024.v} {1 {vlog -work work -vopt -stats=none {U:/CPRE281/Final Project/clock_divider_1024.v}
+QuestaSim-64 vlog 2022.2 Compiler 2022.04 Apr 25 2022
+-- Compiling module clock_divider_1024
+
+Top level modules:
+	clock_divider_1024
+
+} {} {}} {U:/CPRE281/Final Project/converter.v} {1 {vlog -work work -vopt -stats=none {U:/CPRE281/Final Project/converter.v}
+QuestaSim-64 vlog 2022.2 Compiler 2022.04 Apr 25 2022
+-- Compiling module converter
+
+Top level modules:
+	converter
+
+} {} {}} {U:/CPRE281/Final Project/twoToOneMux.v} {1 {vlog -work work -vopt -stats=none {U:/CPRE281/Final Project/twoToOneMux.v}
+QuestaSim-64 vlog 2022.2 Compiler 2022.04 Apr 25 2022
+-- Compiling module twoToOneMux
+
+Top level modules:
+	twoToOneMux
+
+} {} {}}

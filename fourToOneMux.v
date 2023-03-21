@@ -1,0 +1,7 @@
+module fourToOneMux(A,B,C,D,S1,S0,F);
+
+	input A,B,C,D,S1,S0;
+	output F;
+	
+	assign F = ((A&~S1&~S0)|(B&~S1&S0)|(C&S1&~S0)|(D&S1&S0));
+endmodule

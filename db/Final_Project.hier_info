@@ -1,0 +1,515 @@
+|Final_Project
+HA <= convertToSevenSeg:inst2.HurnderdsA
+Q000 => determineTwoLargest:inst.Q000
+Q001 => determineTwoLargest:inst.Q001
+Q010 => determineTwoLargest:inst.Q010
+Q011 => determineTwoLargest:inst.Q011
+Q100 => determineTwoLargest:inst.Q100
+Q101 => determineTwoLargest:inst.Q101
+Q110 => determineTwoLargest:inst.Q110
+Q111 => determineTwoLargest:inst.Q111
+Q200 => determineTwoLargest:inst.Q200
+Q201 => determineTwoLargest:inst.Q201
+Q210 => determineTwoLargest:inst.Q210
+Q211 => determineTwoLargest:inst.Q211
+Q300 => determineTwoLargest:inst.Q300
+Q301 => determineTwoLargest:inst.Q301
+Q310 => determineTwoLargest:inst.Q310
+Q311 => determineTwoLargest:inst.Q311
+Q400 => determineTwoLargest:inst.Q400
+Q401 => determineTwoLargest:inst.Q401
+Q410 => determineTwoLargest:inst.Q410
+Q411 => determineTwoLargest:inst.Q411
+St => determineTwoLargest:inst.St
+Clock => final_project_two_number_Register:inst1.Clock
+Zero => final_project_two_number_Register:inst1.Zero
+HB <= convertToSevenSeg:inst2.HundredsB
+HC <= convertToSevenSeg:inst2.HundredsC
+HD <= convertToSevenSeg:inst2.HundredsD
+HE <= convertToSevenSeg:inst2.HunderdsE
+HF <= convertToSevenSeg:inst2.HundredsF
+HG <= convertToSevenSeg:inst2.HundredsG
+TA <= convertToSevenSeg:inst2.TensA
+TB <= convertToSevenSeg:inst2.TensB
+TC <= convertToSevenSeg:inst2.TensC
+TD <= convertToSevenSeg:inst2.TensD
+TE <= convertToSevenSeg:inst2.TensE
+TF <= convertToSevenSeg:inst2.TensF
+TG <= convertToSevenSeg:inst2.TensG
+OA <= convertToSevenSeg:inst2.OnesA
+OB <= convertToSevenSeg:inst2.OnesB
+OC <= convertToSevenSeg:inst2.OnesC
+OD <= convertToSevenSeg:inst2.OnesD
+OE <= convertToSevenSeg:inst2.OnesE
+OF <= convertToSevenSeg:inst2.OnesF
+OG <= convertToSevenSeg:inst2.OnesG
+SecondA <= seven_seg_decoder:inst4.a
+SecondB <= seven_seg_decoder:inst4.b
+SecondC <= seven_seg_decoder:inst4.c
+SecondD <= seven_seg_decoder:inst4.d
+SecondE <= seven_seg_decoder:inst4.e
+SecondF <= seven_seg_decoder:inst4.f
+SecondG <= seven_seg_decoder:inst4.g
+LargestA <= seven_seg_decoder:inst3.a
+LargestB <= seven_seg_decoder:inst3.b
+LargestC <= seven_seg_decoder:inst3.c
+LargestD <= seven_seg_decoder:inst3.d
+LargestE <= seven_seg_decoder:inst3.e
+LargestF <= seven_seg_decoder:inst3.f
+LargestG <= seven_seg_decoder:inst3.g
+
+
+|Final_Project|convertToSevenSeg:inst2
+OnesA <= seven_seg_decoder:inst1.a
+Inputseven => newplus3:inst11.x
+Inputsix => newplus3:inst11.y
+inputfive => newplus3:inst11.z
+inputfour => newplus3:inst10.z
+inputthree => newplus3:inst9.z
+inputtwo => newplus3:inst8.z
+inputone => newplus3:robert.z
+Inputzero => seven_seg_decoder:inst1.z
+OnesB <= seven_seg_decoder:inst1.b
+OnesC <= seven_seg_decoder:inst1.c
+OnesD <= seven_seg_decoder:inst1.d
+OnesE <= seven_seg_decoder:inst1.e
+OnesF <= seven_seg_decoder:inst1.f
+OnesG <= seven_seg_decoder:inst1.g
+TensA <= seven_seg_decoder:inst2.a
+TensB <= seven_seg_decoder:inst2.b
+TensC <= seven_seg_decoder:inst2.c
+TensD <= seven_seg_decoder:inst2.d
+TensE <= seven_seg_decoder:inst2.e
+TensF <= seven_seg_decoder:inst2.f
+TensG <= seven_seg_decoder:inst2.g
+HurnderdsA <= seven_seg_decoder:inst3.a
+HundredsB <= seven_seg_decoder:inst3.b
+HundredsC <= seven_seg_decoder:inst3.c
+HundredsD <= seven_seg_decoder:inst3.d
+HunderdsE <= seven_seg_decoder:inst3.e
+HundredsF <= seven_seg_decoder:inst3.f
+HundredsG <= seven_seg_decoder:inst3.g
+
+
+|Final_Project|convertToSevenSeg:inst2|seven_seg_decoder:inst1
+w => Decoder0.IN0
+x => Decoder0.IN1
+y => Decoder0.IN2
+z => Decoder0.IN3
+a <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+b <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+c <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+d <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+e <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+f <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+g <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Final_Project|convertToSevenSeg:inst2|newplus3:robert
+w => Decoder0.IN0
+x => Decoder0.IN1
+y => Decoder0.IN2
+z => Decoder0.IN3
+a <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+b <= b.DB_MAX_OUTPUT_PORT_TYPE
+c <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+d <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Final_Project|convertToSevenSeg:inst2|newplus3:inst8
+w => Decoder0.IN0
+x => Decoder0.IN1
+y => Decoder0.IN2
+z => Decoder0.IN3
+a <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+b <= b.DB_MAX_OUTPUT_PORT_TYPE
+c <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+d <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Final_Project|convertToSevenSeg:inst2|newplus3:inst9
+w => Decoder0.IN0
+x => Decoder0.IN1
+y => Decoder0.IN2
+z => Decoder0.IN3
+a <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+b <= b.DB_MAX_OUTPUT_PORT_TYPE
+c <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+d <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Final_Project|convertToSevenSeg:inst2|newplus3:inst10
+w => Decoder0.IN0
+x => Decoder0.IN1
+y => Decoder0.IN2
+z => Decoder0.IN3
+a <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+b <= b.DB_MAX_OUTPUT_PORT_TYPE
+c <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+d <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Final_Project|convertToSevenSeg:inst2|newplus3:inst11
+w => Decoder0.IN0
+x => Decoder0.IN1
+y => Decoder0.IN2
+z => Decoder0.IN3
+a <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+b <= b.DB_MAX_OUTPUT_PORT_TYPE
+c <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+d <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Final_Project|convertToSevenSeg:inst2|seven_seg_decoder:inst2
+w => Decoder0.IN0
+x => Decoder0.IN1
+y => Decoder0.IN2
+z => Decoder0.IN3
+a <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+b <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+c <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+d <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+e <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+f <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+g <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Final_Project|convertToSevenSeg:inst2|newplus3:inst12
+w => Decoder0.IN0
+x => Decoder0.IN1
+y => Decoder0.IN2
+z => Decoder0.IN3
+a <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+b <= b.DB_MAX_OUTPUT_PORT_TYPE
+c <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+d <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Final_Project|convertToSevenSeg:inst2|newplus3:roberto
+w => Decoder0.IN0
+x => Decoder0.IN1
+y => Decoder0.IN2
+z => Decoder0.IN3
+a <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+b <= b.DB_MAX_OUTPUT_PORT_TYPE
+c <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+d <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Final_Project|convertToSevenSeg:inst2|seven_seg_decoder:inst3
+w => Decoder0.IN0
+x => Decoder0.IN1
+y => Decoder0.IN2
+z => Decoder0.IN3
+a <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+b <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+c <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+d <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+e <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+f <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+g <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Final_Project|multiplier:inst6
+A0 <= LessThan7.DB_MAX_OUTPUT_PORT_TYPE
+A1 <= LessThan6.DB_MAX_OUTPUT_PORT_TYPE
+A2 <= LessThan5.DB_MAX_OUTPUT_PORT_TYPE
+A3 <= LessThan4.DB_MAX_OUTPUT_PORT_TYPE
+A4 <= LessThan3.DB_MAX_OUTPUT_PORT_TYPE
+A5 <= LessThan2.DB_MAX_OUTPUT_PORT_TYPE
+A6 <= LessThan1.DB_MAX_OUTPUT_PORT_TYPE
+A7 <= LessThan0.DB_MAX_OUTPUT_PORT_TYPE
+L0 => Mult0.IN5
+L1 => Mult0.IN4
+L2 => Mult0.IN3
+L3 => Mult0.IN2
+S0 => Mult0.IN9
+S1 => Mult0.IN8
+S2 => Mult0.IN7
+S3 => Mult0.IN6
+
+
+|Final_Project|final_project_two_number_Register:inst1
+L0 <= final_Project_register:inst.Q0
+Load => final_Project_register:inst.Load
+Load => final_Project_register:inst1.Load
+Largest_0 => final_Project_register:inst.X0
+Largest_1 => final_Project_register:inst.X1
+Largest_2 => final_Project_register:inst.X2
+Largest_3 => final_Project_register:inst.X3
+Clock => final_Project_register:inst.Clock
+Clock => final_Project_register:inst1.Clock
+Zero => final_Project_register:inst.Zero
+Zero => final_Project_register:inst1.Zero
+L1 <= final_Project_register:inst.Q1
+L2 <= final_Project_register:inst.Q2
+L3 <= final_Project_register:inst.Q3
+S0 <= final_Project_register:inst1.Q0
+Second_largest_0 => final_Project_register:inst1.X0
+Second_largest_1 => final_Project_register:inst1.X1
+Second_largest_2 => final_Project_register:inst1.X2
+Second_largest_3 => final_Project_register:inst1.X3
+S1 <= final_Project_register:inst1.Q1
+S2 <= final_Project_register:inst1.Q2
+S3 <= final_Project_register:inst1.Q3
+
+
+|Final_Project|final_project_two_number_Register:inst1|final_Project_register:inst
+Q0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+Zero => inst8.IN0
+Clock => inst.CLK
+Clock => inst1.CLK
+Clock => inst2.CLK
+Clock => inst3.CLK
+X0 => twoToOneMux:inst4.A
+Load => inst10.IN0
+Q1 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+X1 => twoToOneMux:inst5.A
+Q2 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+X2 => twoToOneMux:inst6.A
+Q3 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+X3 => twoToOneMux:inst7.A
+
+
+|Final_Project|final_project_two_number_Register:inst1|final_Project_register:inst|twoToOneMux:inst4
+A => F.IN0
+B => F.IN0
+S => F.IN1
+S => F.IN1
+F <= F.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Final_Project|final_project_two_number_Register:inst1|final_Project_register:inst|twoToOneMux:inst5
+A => F.IN0
+B => F.IN0
+S => F.IN1
+S => F.IN1
+F <= F.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Final_Project|final_project_two_number_Register:inst1|final_Project_register:inst|twoToOneMux:inst6
+A => F.IN0
+B => F.IN0
+S => F.IN1
+S => F.IN1
+F <= F.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Final_Project|final_project_two_number_Register:inst1|final_Project_register:inst|twoToOneMux:inst7
+A => F.IN0
+B => F.IN0
+S => F.IN1
+S => F.IN1
+F <= F.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Final_Project|final_project_two_number_Register:inst1|final_Project_register:inst1
+Q0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+Zero => inst8.IN0
+Clock => inst.CLK
+Clock => inst1.CLK
+Clock => inst2.CLK
+Clock => inst3.CLK
+X0 => twoToOneMux:inst4.A
+Load => inst10.IN0
+Q1 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+X1 => twoToOneMux:inst5.A
+Q2 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+X2 => twoToOneMux:inst6.A
+Q3 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+X3 => twoToOneMux:inst7.A
+
+
+|Final_Project|final_project_two_number_Register:inst1|final_Project_register:inst1|twoToOneMux:inst4
+A => F.IN0
+B => F.IN0
+S => F.IN1
+S => F.IN1
+F <= F.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Final_Project|final_project_two_number_Register:inst1|final_Project_register:inst1|twoToOneMux:inst5
+A => F.IN0
+B => F.IN0
+S => F.IN1
+S => F.IN1
+F <= F.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Final_Project|final_project_two_number_Register:inst1|final_Project_register:inst1|twoToOneMux:inst6
+A => F.IN0
+B => F.IN0
+S => F.IN1
+S => F.IN1
+F <= F.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Final_Project|final_project_two_number_Register:inst1|final_Project_register:inst1|twoToOneMux:inst7
+A => F.IN0
+B => F.IN0
+S => F.IN1
+S => F.IN1
+F <= F.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Final_Project|determineTwoLargest:inst
+Q000 => L200.DATAA
+Q000 => L00.DATAA
+Q000 => LessThan0.IN4
+Q000 => Largest.DATAA
+Q000 => Equal0.IN59
+Q000 => num01[0].DATAA
+Q001 => L201.DATAA
+Q001 => L01.DATAA
+Q001 => LessThan0.IN3
+Q001 => Largest.DATAA
+Q001 => Equal0.IN58
+Q001 => num01[1].DATAA
+Q010 => L210.DATAA
+Q010 => L10.DATAA
+Q010 => LessThan0.IN2
+Q010 => Largest.DATAA
+Q010 => Equal0.IN57
+Q010 => num01[2].DATAA
+Q011 => L211.DATAA
+Q011 => L11.DATAA
+Q011 => LessThan0.IN1
+Q011 => Largest.DATAA
+Q011 => Equal0.IN56
+Q011 => num01[3].DATAA
+Q100 => L200.DATAB
+Q100 => L00.DATAB
+Q100 => LessThan0.IN5
+Q100 => Largest.DATAB
+Q100 => Equal1.IN56
+Q100 => num02[0].DATAA
+Q101 => L201.DATAB
+Q101 => L01.DATAB
+Q101 => LessThan0.IN6
+Q101 => Largest.DATAB
+Q101 => Equal1.IN57
+Q101 => num02[1].DATAA
+Q110 => L210.DATAB
+Q110 => L10.DATAB
+Q110 => LessThan0.IN7
+Q110 => Largest.DATAB
+Q110 => Equal1.IN58
+Q110 => num02[2].DATAA
+Q111 => L211.DATAB
+Q111 => L11.DATAB
+Q111 => LessThan0.IN8
+Q111 => Largest.DATAB
+Q111 => Equal1.IN59
+Q111 => num02[3].DATAA
+Q200 => L200.DATAB
+Q200 => L00.DATAB
+Q200 => LessThan1.IN5
+Q200 => Largest.DATAB
+Q200 => Equal2.IN56
+Q200 => num03[0].DATAA
+Q201 => L201.DATAB
+Q201 => L01.DATAB
+Q201 => LessThan1.IN6
+Q201 => Largest.DATAB
+Q201 => Equal2.IN57
+Q201 => num03[1].DATAA
+Q210 => L210.DATAB
+Q210 => L10.DATAB
+Q210 => LessThan1.IN7
+Q210 => Largest.DATAB
+Q210 => Equal2.IN58
+Q210 => num03[2].DATAA
+Q211 => L211.DATAB
+Q211 => L11.DATAB
+Q211 => LessThan1.IN8
+Q211 => Largest.DATAB
+Q211 => Equal2.IN59
+Q211 => num03[3].DATAA
+Q300 => L200.DATAB
+Q300 => L00.DATAB
+Q300 => LessThan2.IN5
+Q300 => Largest.DATAB
+Q300 => Equal3.IN56
+Q300 => num04[0].DATAA
+Q301 => L201.DATAB
+Q301 => L01.DATAB
+Q301 => LessThan2.IN6
+Q301 => Largest.DATAB
+Q301 => Equal3.IN57
+Q301 => num04[1].DATAA
+Q310 => L210.DATAB
+Q310 => L10.DATAB
+Q310 => LessThan2.IN7
+Q310 => Largest.DATAB
+Q310 => Equal3.IN58
+Q310 => num04[2].DATAA
+Q311 => L211.DATAB
+Q311 => L11.DATAB
+Q311 => LessThan2.IN8
+Q311 => Largest.DATAB
+Q311 => Equal3.IN59
+Q311 => num04[3].DATAA
+Q400 => L200.DATAB
+Q400 => L00.DATAB
+Q400 => LessThan3.IN5
+Q400 => Largest[0].DATAB
+Q400 => Equal4.IN56
+Q400 => num05[0].DATAA
+Q401 => L201.DATAB
+Q401 => L01.DATAB
+Q401 => LessThan3.IN6
+Q401 => Largest[1].DATAB
+Q401 => Equal4.IN57
+Q401 => num05[1].DATAA
+Q410 => L210.DATAB
+Q410 => L10.DATAB
+Q410 => LessThan3.IN7
+Q410 => Largest[2].DATAB
+Q410 => Equal4.IN58
+Q410 => num05[2].DATAA
+Q411 => L211.DATAB
+Q411 => L11.DATAB
+Q411 => LessThan3.IN8
+Q411 => Largest[3].DATAB
+Q411 => Equal4.IN59
+Q411 => num05[3].DATAA
+L00 <= L00$latch.DB_MAX_OUTPUT_PORT_TYPE
+L01 <= L01$latch.DB_MAX_OUTPUT_PORT_TYPE
+L10 <= L10$latch.DB_MAX_OUTPUT_PORT_TYPE
+L11 <= L11$latch.DB_MAX_OUTPUT_PORT_TYPE
+L200 <= L200$latch.DB_MAX_OUTPUT_PORT_TYPE
+L201 <= L201$latch.DB_MAX_OUTPUT_PORT_TYPE
+L210 <= L210$latch.DB_MAX_OUTPUT_PORT_TYPE
+L211 <= L211$latch.DB_MAX_OUTPUT_PORT_TYPE
+St => ~NO_FANOUT~
+load <= <VCC>
+
+
+|Final_Project|seven_seg_decoder:inst4
+w => Decoder0.IN0
+x => Decoder0.IN1
+y => Decoder0.IN2
+z => Decoder0.IN3
+a <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+b <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+c <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+d <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+e <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+f <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+g <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Final_Project|seven_seg_decoder:inst3
+w => Decoder0.IN0
+x => Decoder0.IN1
+y => Decoder0.IN2
+z => Decoder0.IN3
+a <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+b <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+c <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+d <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+e <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+f <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+g <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+
+

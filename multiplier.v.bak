@@ -1,0 +1,10 @@
+module multiplier(A0,A1,A2,A3,A4,A5,A6,A7,L0,L1,L2,L3,S0,S1,S2,S3);
+		input L0,L1,L2,L3;
+		output S0,S1,S2,S3;
+		always@(1==1)
+			begin
+			
+			
+			end
+		
+endmodule

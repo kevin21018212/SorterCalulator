@@ -1,0 +1,31 @@
+force Q000 1 
+force Q001 1 
+force Q010 1 
+force Q011 1
+
+force Q100 1 
+force Q101 1 
+force Q110 1 
+force Q111 0 
+
+force Q200 1 
+force Q201 1 
+force Q210 0
+force Q211 1 
+
+force Q300 1
+force Q301 1 
+force Q310 0 
+force Q311 0 
+
+force Q400 1 
+force Q401 0 
+force Q410 1 
+force Q411 1 
+
+force St 1
+
+
+
+
+run 400
